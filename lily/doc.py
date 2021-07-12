@@ -1,4 +1,7 @@
+class Doc:
 
+    def python(self):
+        return '''
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
@@ -146,4 +149,4 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
-    
+    '''
