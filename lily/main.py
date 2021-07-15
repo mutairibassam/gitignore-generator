@@ -6,6 +6,8 @@ from lily.doc import Doc
 class Languages(Enum):
     PYTHON = 1
     NODE = 2
+    ANDROID = 3
+    ANDROID_STUDIO = 4
 
 def create_gitignore(lang):
     FILE_NAME = ".gitignore"
@@ -27,6 +29,14 @@ def create_gitignore(lang):
 
             if i == Languages.NODE.name:
                 val = Doc.node(obj)
+                add_value(val)
+
+            if i == Languages.ANDROID.name:
+                val = Doc.android(obj)
+                add_value(val)
+
+            if i == Languages.ANDROID_STUDIO.name:
+                val = Doc.android_studio(obj)
                 add_value(val)
 
     except:
