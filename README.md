@@ -10,6 +10,6 @@ pip install lily
 ```
 
 ```bash
-# in the terminal pass what ever you want to ignore as a python argument
+# in the terminal pass what ever you want to ignore as an argument
 lily python node ...
 ```
