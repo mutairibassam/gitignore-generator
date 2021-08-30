@@ -1,5 +1,5 @@
 """
-Entry point when the game is run as `python -m lily`.
+Entry point for lily program as `python -m lily`.
 
 """
 
